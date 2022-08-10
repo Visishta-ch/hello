@@ -1,1 +1,1 @@
-console.log("God created the World")
+console.log("God created the World and Man in his own form.")
