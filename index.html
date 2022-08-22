@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Online Registration</title>
+
+
+
+</head>
+
+<body>
+
+    <div class="container">VCV</div>
+
+    
+
+    <div class="a">
+
+    <form action="#" onSubmit="onSubmit(event)">
+
+        
+
+            <h2>Book a call</h2><br>
+
+
+
+             <p><small>Book a call slot for online consultation</small></p><br>
+
+             <hr>
+
+       
+
+        
+
+        <label for="name" id="label">Name</label><br>
+
+        <input type="text" name="name"><br> 
+
+        <label for="email" id="label">Email</label><br>
+
+        <input type="email" name="email"><br>
+
+        <label for="Phone" id="label">Phone</label><br>
+
+        <input type="text" name="phone" id="phone"><br>
+
+        <label for="time" id="label">Time for call</label><br>
+
+        <input type="date" name="date" id="date"><input type="time" name="date" id="time"><br>
+
+        
+
+        <input type="submit" value="Get a call">
+
+    </form>
+
+</div> 
+
+
+
+<script>
+
+    function onSubmit(event){
+
+        event.preventDefault();
+
+        console.log(event.target.name.value);
+
+        console.log(event.target.email.value);
+
+        console.log(event.target.phone.value);
+
+    }
+
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
