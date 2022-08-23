@@ -28,6 +28,7 @@ function getPosts(){
    
 }
 
+
 function createPost(post,callback) {
     setTimeout(() => {
         posts.push({...post,createdAt: Math.floor(new Date().getTime()/1000)});
